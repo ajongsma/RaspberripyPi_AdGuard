@@ -26,6 +26,12 @@
 # Install git and net-tools packages 
 ##### sudo apt-get install git net-tools
 
+# Install Pi-Hole
+##### curl -sSL https://install.pi-hole.net | bash
+
+# Change Password Pi-Hole web admin interface 
+##### pihole -a -p
+
 # Pi-hole
 ##### https://pi-hole.net
 
