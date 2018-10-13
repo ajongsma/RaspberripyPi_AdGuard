@@ -1,7 +1,7 @@
 # Raspberripi
 
-# Download Etcher to Flash OS images to SD card(s)
-##### https://etcher.io
+# Download Etcher or Apple-Pi-Baker to Flash OS images to SD card(s)
+##### https://etcher.io / https://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/
 
 # Download Raspbian Stretch Lite image
 ##### https://www.raspberrypi.org/downloads/raspbian/
@@ -16,6 +16,12 @@
 ##### > Network Options > Wi-fi
 
 
+# Upgrade installed packages
+##### sudo apt-get update 
+##### sudo apt-get upgrade 
+
+# Install git and net-tools packages 
+##### sudo apt-get install git net-tools
 
 # Pi-hole
 ##### https://pi-hole.net
