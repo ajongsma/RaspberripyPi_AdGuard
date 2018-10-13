@@ -29,5 +29,5 @@
 # Pi-hole as All-Around DNS Solution
 ##### https://docs.pi-hole.net/guides/unbound/
 
-
-####### https://blog.sleeplessbeastie.eu/2018/01/11/how-to-install-and-configure-pi-hole/
+# Other
+###### https://blog.sleeplessbeastie.eu/2018/01/11/how-to-install-and-configure-pi-hole/
