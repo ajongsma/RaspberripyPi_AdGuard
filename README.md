@@ -14,7 +14,8 @@
 ##### $ sudo raspi-config
 ##### > Interface Options > SSH > Yes
 ##### > Network Options > Wi-fi
-
+##### > Boot Options -> B1 Desktop / CLI -> B2 Console Autologin
+##### > Advanced Options -> A3 Memory Split -> Enter 16
 
 # Upgrade installed packages
 ##### sudo apt-get update 
