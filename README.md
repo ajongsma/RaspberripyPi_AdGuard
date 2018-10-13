@@ -18,7 +18,9 @@
 
 # Upgrade installed packages
 ##### sudo apt-get update 
-##### sudo apt-get upgrade 
+##### sudo apt-get upgrade
+##### sudo apt-get autoremove
+##### sudo apt-get autoclean
 
 # Install git and net-tools packages 
 ##### sudo apt-get install git net-tools
