@@ -36,3 +36,5 @@
 ###### https://blog.sleeplessbeastie.eu/2018/01/11/how-to-install-and-configure-pi-hole/
 ###### https://itchy.nl/raspberry-pi-3-with-openvpn-pihole-dnscrypt
 ###### https://www.ct.nl/achtergrond/versleutelde-dns-requests-met-pi-hole/
+
+###### lighttpd
