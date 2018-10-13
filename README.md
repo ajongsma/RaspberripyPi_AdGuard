@@ -8,7 +8,7 @@
 
 # Login:
 ###### $ UserID: pi
-#### $ Password: raspberry
+##### $ Password: raspberry
 
 # sudo raspi-config
 #### $ sudo raspi-config
