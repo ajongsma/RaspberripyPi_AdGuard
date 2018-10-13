@@ -7,11 +7,12 @@ https://etcher.io
 https://www.raspberrypi.org/downloads/raspbian/
 
 #### Login:
-$ UserID: pi
-$ Password: raspberry
+# $ UserID: pi
+# $ Password: raspberry
 
 #### sudo raspi-config
-# sudo raspi-config
+# $ sudo raspi-config
+# > Network Options > SSH > Yes
 
 
 
