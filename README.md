@@ -12,7 +12,7 @@ https://www.raspberrypi.org/downloads/raspbian/
 
 #### sudo raspi-config
 # $ sudo raspi-config
-# > Network Options > SSH > Yes
+# > Interface Options > SSH > Yes
 
 
 
