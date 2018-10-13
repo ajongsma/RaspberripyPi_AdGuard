@@ -1,22 +1,22 @@
 ##### Raspberripi
 
 # Download Etcher to Flash OS images to SD card(s)
-###### https://etcher.io
+##### https://etcher.io
 
 # Download Raspbian Stretch Lite image
-###### https://www.raspberrypi.org/downloads/raspbian/
+##### https://www.raspberrypi.org/downloads/raspbian/
 
 # Login:
-###### $ UserID: pi
+##### $ UserID: pi
 ##### $ Password: raspberry
 
 # sudo raspi-config
-#### $ sudo raspi-config
-#### > Interface Options > SSH > Yes
+##### $ sudo raspi-config
+##### > Interface Options > SSH > Yes
 
 
 
 
 # Pi-hole as All-Around DNS Solution
-https://docs.pi-hole.net/guides/unbound/
+##### https://docs.pi-hole.net/guides/unbound/
 
