@@ -1,13 +1,13 @@
 ##### Raspberripi
 
 # Download Etcher to Flash OS images to SD card(s)
-## https://etcher.io
+###### https://etcher.io
 
 # Download Raspbian Stretch Lite image
-## https://www.raspberrypi.org/downloads/raspbian/
+###### https://www.raspberrypi.org/downloads/raspbian/
 
 # Login:
-#### $ UserID: pi
+###### $ UserID: pi
 #### $ Password: raspberry
 
 # sudo raspi-config
