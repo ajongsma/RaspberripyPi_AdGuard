@@ -13,6 +13,7 @@
 # sudo raspi-config
 ##### $ sudo raspi-config
 ##### > Interface Options > SSH > Yes
+##### > Network Options > Wi-fi
 
 
 
