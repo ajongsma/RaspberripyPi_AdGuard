@@ -6,41 +6,38 @@
 # Download Raspbian Stretch Lite image
 ##### https://www.raspberrypi.org/downloads/raspbian/
 
-# Login:
+# Terminal
+## Login:
 ##### $ UserID: pi
 ##### $ Password: raspberry
 
-# sudo raspi-config
+## sudo raspi-config
 ##### $ sudo raspi-config
 ##### > Interface Options > SSH > Yes
 ##### > Network Options > Wi-fi
 ##### > Boot Options -> B1 Desktop / CLI -> B2 Console Autologin
 ##### > Advanced Options -> A3 Memory Split -> Enter 16
 
-# Upgrade installed packages
+# Terminal / SSH
+## Upgrade installed packages
 ##### sudo apt-get update 
 ##### sudo apt-get upgrade
 ##### sudo apt-get autoremove
 ##### sudo apt-get autoclean
 
-# Install git and net-tools packages 
-##### sudo apt-get install git net-tools
-
-# Install Pi-Hole
+## Install Pi-Hole
 ##### curl -sSL https://install.pi-hole.net | bash
 
-# Change Password Pi-Hole web admin interface 
+## Change Password Pi-Hole web admin interface 
 ##### pihole -a -p
 
-# Pi-hole
-##### https://pi-hole.net
+## Pi-hole
+##### open https://pi-hole.net
 
-# Pi-hole as All-Around DNS Solution
+## Pi-hole as All-Around DNS Solution
 ##### https://docs.pi-hole.net/guides/unbound/
 
-# Other
+# Other / Notes
 ###### https://blog.sleeplessbeastie.eu/2018/01/11/how-to-install-and-configure-pi-hole/
 ###### https://itchy.nl/raspberry-pi-3-with-openvpn-pihole-dnscrypt
 ###### https://www.ct.nl/achtergrond/versleutelde-dns-requests-met-pi-hole/
-
-###### lighttpd
