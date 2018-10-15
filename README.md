@@ -1,4 +1,4 @@
-# Raspberri pi - PiHole edition
+# Raspberry pi - PiHole edition
 
 # Download Etcher or Apple-Pi-Baker to Flash OS images to SD card(s)
 ##### https://etcher.io / https://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/
