@@ -20,16 +20,16 @@
 
 # Terminal / SSH
 ## Upgrade installed packages
-##### sudo apt-get update 
-##### sudo apt-get upgrade
-##### sudo apt-get autoremove
-##### sudo apt-get autoclean
+##### $ sudo apt-get update 
+##### $ sudo apt-get upgrade
+##### $ sudo apt-get autoremove
+##### $ sudo apt-get autoclean
 
 ## Install Pi-Hole
-##### curl -sSL https://install.pi-hole.net | bash
+##### $ curl -sSL https://install.pi-hole.net | bash
 
 ## Change Password Pi-Hole web admin interface 
-##### pihole -a -p
+##### $ pihole -a -p
 
 ## Pi-hole
 ##### open https://pi-hole.net
