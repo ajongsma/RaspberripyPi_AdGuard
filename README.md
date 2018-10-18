@@ -31,8 +31,12 @@
 ## Change Password Pi-Hole web admin interface 
 ##### $ pihole -a -p
 
+## Update Pi-Hole
+##### $ pihole -up
+
 ## Pi-hole
 ##### open https://pi-hole.net
+
 
 # Add Customs
 ## Extra blocklists
