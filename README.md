@@ -79,7 +79,7 @@ EOF
 pihole -w pubsub.plex.tv plugins.plex.tv chapterdb.plex.tv cloudfront.net \
 plex.direct csi.gstatic.com dl.opensubtitles.org speedvideo.net ton.twimg.com \
 twimg.com chapterdb.plex.tv tinyurl.com bit.ly ton.twimg.com dropbox.com \
-pubsub.plex.bz fonts.gstatic.com assets.adobedtm.com www.googletagmanager.com \
+pubsub.plex.bz fonts.gstatic.com www.googletagmanager.com \
 links.services.disqus.com ump.plex.tv meta.plex.tv goo.gl
 ```
 
