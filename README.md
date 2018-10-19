@@ -75,13 +75,16 @@ EOF
 ```
 
 ## Manually Whitelisted Domains
+```
 pihole -w pubsub.plex.tv plugins.plex.tv chapterdb.plex.tv cloudfront.net \
 plex.direct csi.gstatic.com dl.opensubtitles.org speedvideo.net ton.twimg.com \
 twimg.com chapterdb.plex.tv tinyurl.com bit.ly ton.twimg.com dropbox.com \
 pubsub.plex.bz fonts.gstatic.com assets.adobedtm.com www.googletagmanager.com \
 links.services.disqus.com ump.plex.tv meta.plex.tv goo.gl
+```
 
 ## Manually Blacklisted Domains
+```
 pihole -b dxp.baidu.com hmma.baidu.com pasta.esfile.duapps.com \
 neweegg.net config.a-mo.net nrc.tapas.net xpu.samsungelectronics.com \
 upu.samsungelectronics.com dns.msftncsi.com bn2wns1b.wns.windows.com \
@@ -118,7 +121,7 @@ ads.aws.viber.com stats.appsflyer.com adservice.google.ie referrer.disqus.com \
 browser.pipe.aria.microsoft.com tracking.campaign-tracking-service.placelocal.com \
 primoitaliablob.blob.core.windows.net srv.dc-1.net \
 wdcpeurope.microsoft.akadns.net wdcp.microsoft.akadns.net
-
+```
 
 
 
