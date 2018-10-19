@@ -40,8 +40,8 @@
 
 # Add Customs
 ## Extra blocklists
+```
 pihole tee -a /etc/pihole/adlists.list >/dev/null << EOF
-### hobo.house list
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts 
 https://mirror1.malwaredomains.com/files/justdomains 
 http://sysctl.org/cameleon/hosts 
@@ -72,6 +72,7 @@ https://reddestdream.github.io/Projects/MinimalHosts/etc/MinimalHostsBlocker/min
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts 
 https://v.firebog.net/hosts/static/w3kbl.txt
 EOF
+```
 
 ## Manually Whitelisted Domains
 pihole -w pubsub.plex.tv plugins.plex.tv chapterdb.plex.tv cloudfront.net \
