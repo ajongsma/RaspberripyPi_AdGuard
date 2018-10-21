@@ -18,12 +18,17 @@
 ##### > Boot Options -> B1 Desktop / CLI -> B2 Console Autologin
 ##### > Advanced Options -> A3 Memory Split -> Enter 16
 
+## Upgrade firmware
+##### $ sudo raspi-config
+##### $ sudo rpi-update
+
 # Terminal / SSH
-## Upgrade installed packages
-##### $ sudo apt-get update 
-##### $ sudo apt-get upgrade
-##### $ sudo apt-get autoremove
-##### $ sudo apt-get autoclean
+## Upgrade packages and distribution
+##### $ sudo apt-get update && sudo apt-get upgrade
+##### $ sudo apt-get dist-upgrade
+
+## Cleanup & Install extra tools
+##### $ sudo apt-get install -y autoremove autoclean sysstat vnstat screen
 
 ## Install Pi-Hole
 ##### $ curl -sSL https://install.pi-hole.net | bash
@@ -36,6 +41,13 @@
 
 ## Pi-hole
 ##### open https://pi-hole.net
+
+
+## Enable password-less login
+##### Create the .ssh directory via install -d -m 700 ~/.ssh
+##### Create a SSH key on your PC: ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+##### Install your public key for user 'pi' cat ~/.ssh/id_rsa.pub | ssh pi@IPADDRESS 'cat >> .ssh/authorized_keys'
+##### Install your public key for user 'root' cat ~/.ssh/id_rsa.pub | ssh root@IPADDRESS 'cat >> .ssh/authorized_keys'
 
 # Testing
 ## Add local DNS resolution
