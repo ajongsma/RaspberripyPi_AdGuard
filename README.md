@@ -37,6 +37,16 @@
 ## Pi-hole
 ##### open https://pi-hole.net
 
+# Testing
+## Add local DNS resolution
+#### Create a second dnsmasq config file:
+```
+echo "addn-hosts=/etc/pihole/lan.list" | sudo tee /etc/dnsmasq.d/02-lan.conf
+```
+#### Create a hosts file for your network at /etc/pihole/lan.list with the format ipaddress fqdn hostname (tabbed between each). For example
+```
+192.168.1.1    UbiquitiGateway.local    UbiquitiGateway
+```
 
 # Add Customs
 ## Extra blocklists
