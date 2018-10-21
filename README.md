@@ -30,6 +30,10 @@
 ## Cleanup & Install extra tools
 ##### $ sudo apt-get install -y autoremove autoclean sysstat vnstat screen
 
+## Enable NTP time
+##### $ timedatectl set-ntp true 
+##### $ timedatectl status
+
 ## Install Pi-Hole
 ##### $ curl -sSL https://install.pi-hole.net | bash
 
@@ -157,3 +161,4 @@ wdcpeurope.microsoft.akadns.net wdcp.microsoft.akadns.net
 ###### https://blog.sleeplessbeastie.eu/2018/01/11/how-to-install-and-configure-pi-hole/
 ###### https://itchy.nl/raspberry-pi-3-with-openvpn-pihole-dnscrypt
 ###### https://www.ct.nl/achtergrond/versleutelde-dns-requests-met-pi-hole/
+###### https://github.com/magicdude4eva/PiHoleCloudFlareD
