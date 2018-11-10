@@ -162,3 +162,4 @@ wdcpeurope.microsoft.akadns.net wdcp.microsoft.akadns.net
 ###### https://itchy.nl/raspberry-pi-3-with-openvpn-pihole-dnscrypt
 ###### https://www.ct.nl/achtergrond/versleutelde-dns-requests-met-pi-hole/
 ###### https://github.com/magicdude4eva/PiHoleCloudFlareD
+###### https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=23440&sid=7e9b82328ff4a5ef30f2a867cdf25bd5
