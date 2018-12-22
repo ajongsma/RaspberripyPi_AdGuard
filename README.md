@@ -53,6 +53,11 @@
 ##### Install your public key for user 'pi' cat ~/.ssh/id_rsa.pub | ssh pi@IPADDRESS 'cat >> .ssh/authorized_keys'
 ##### Install your public key for user 'root' cat ~/.ssh/id_rsa.pub | ssh root@IPADDRESS 'cat >> .ssh/authorized_keys'
 
+## Add Whitelist
+#### https://github.com/anudeepND/whitelist
+
+
+
 # Testing
 ## Add local DNS resolution
 #### Create a second dnsmasq config file:
