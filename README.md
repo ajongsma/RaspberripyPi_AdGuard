@@ -13,16 +13,15 @@
 
 ## sudo raspi-config
 ##### $ sudo raspi-config
-##### > Interface Options > SSH > Yes
-##### > Network Options > Wi-fi
-##### > Boot Options -> B1 Desktop / CLI -> B2 Console Autologin
-##### > Advanced Options -> A3 Memory Split -> Enter 16
+##### > 5) Interface Options > SSH > Yes
+##### > 2) Network Options > Wi-fi
+##### > 3) Boot Options -> B1 Desktop / CLI -> B2 Console Autologin
+##### > 7) Advanced Options -> A3 Memory Split -> Enter 16
 
 ## Upgrade firmware
-##### $ sudo raspi-config
+##### $ sudo raspi-config > 8) Update
 ##### $ sudo rpi-update
 
-# Terminal / SSH
 ## Upgrade packages and distribution
 ##### $ sudo apt-get update && sudo apt-get upgrade
 ##### $ sudo apt-get dist-upgrade
