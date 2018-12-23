@@ -36,7 +36,7 @@
 ##### >> Enable: en_US.UTF-8 UTF-8
 
 ## Enable NTP time
-##### $ timedatectl set-ntp true && timedatectl status
+##### $ timedatectl set-ntp true
 ##### $ timedatectl status
 
 ## Install AdGuard
