@@ -15,7 +15,8 @@
 ##### $ sudo raspi-config
 ##### > 5) Interface Options > SSH > Yes
 ##### > 2) Network Options > Wi-fi
-##### > 3) Boot Options -> B1 Desktop / CLI -> B2 Console Autologin
+##### > 3) Boot Options > B1 Desktop / CLI -> B2 Console Autologin
+##### > 4) Localisation Options > Change Timezone > 
 ##### > 7) Advanced Options -> A3 Memory Split -> Enter 16
 
 ## Upgrade firmware
@@ -29,12 +30,44 @@
 ## Cleanup & Install extra tools
 ##### $ sudo apt-get install -y autoremove autoclean sysstat vnstat screen
 
+## Locales
+##### $ sudo dpkg-reconfigure locales
+##### >> Enable: en_GB.UTF-8 UTF-8
+##### >> Enable: en_US.UTF-8 UTF-8
+
 ## Enable NTP time
-##### $ timedatectl set-ntp true 
+##### $ timedatectl set-ntp true && timedatectl status
 ##### $ timedatectl status
 
-## Install Pi-Hole
-##### $ curl -sSL https://install.pi-hole.net | bash
+## Install AdGuard
+##### $ cd $HOME
+##### $ wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.91/AdGuardHome_v0.91_linux_arm.tar.gz
+##### $ tar xvf AdGuardHome_v0.91_linux_arm.tar.gz
+
+## Determine HOSTNAME's IP Adres (write UO adres down for the next step)
+##### hostname -I|xargs -n1
+
+## Create file for the Launch service
+##### $ sudo nano /etc/systemd/system/adguard-home.service
+##### Paste the following text and replace host 192.168.1.3 with the hostname if needed, and use CTRL+o to save file:
+```
+[Unit]
+Description=AdGuard Home
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/home/pi/AdGuardHome
+ExecStart=/home/pi/AdGuardHome/AdGuardHome --host 192.168.1.3
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
 
 ## Change Password Pi-Hole web admin interface 
 ##### $ pihole -a -p
