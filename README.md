@@ -44,12 +44,12 @@
 ##### $ wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.91/AdGuardHome_v0.91_linux_arm.tar.gz
 ##### $ tar xvf AdGuardHome_v0.91_linux_arm.tar.gz
 
-## Determine HOSTNAME's IP Adres (write UO adres down for the next step)
+## Determine HOSTNAME's IP Adres (write IP adres down for the next step)
 ##### hostname -I|xargs -n1
 
 ## Create file for the Launch service
 ##### $ sudo nano /etc/systemd/system/adguard-home.service
-##### Paste the following text and replace host 192.168.1.3 with the hostname if needed, and use CTRL+o to save file:
+##### Paste the following text and replace host IP Adress 192.168.1.3 if needed, press CTRL+o to save file, CTRL+x to exit:
 ```
 [Unit]
 Description=AdGuard Home
@@ -67,6 +67,15 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+
+## Enable and Start Adguard
+##### $ sudo systemctl enable adguard-home
+##### $ sudo systemctl start adguard-home
+
+## Visit the web interface (replace the IP address with the hosts IP if needed)
+##### http://192.168.1.3:3000/
+
+
 
 
 ## Change Password Pi-Hole web admin interface 
