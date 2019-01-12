@@ -41,7 +41,7 @@
 
 ## Install AdGuard
 ##### $ cd $HOME
-##### $ wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.91/AdGuardHome_v0.92-hotfix2_linux_arm.tar.gz
+##### $ wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.92-hotfix2/AdGuardHome_v0.92-hotfix2_linux_arm.tar.gz
 
 ##### $ tar xvf AdGuardHome_v0.92-hotfix2_linux_arm.tar.gz
 
