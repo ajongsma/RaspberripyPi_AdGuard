@@ -41,9 +41,9 @@
 
 ## Install AdGuard
 ##### $ cd $HOME
-##### $ wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.92-hotfix2/AdGuardHome_v0.92-hotfix2_linux_arm.tar.gz
+##### $ wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.93/AdGuardHome_v0.93_linux_arm.tar.gz
 
-##### $ tar xvf AdGuardHome_v0.92-hotfix2_linux_arm.tar.gz
+##### $ tar xvf AdGuardHome_v0.93_linux_arm.tar.gz
 
 ## Determine HOSTNAME's IP Adres (write IP adres down for the next step)
 ##### hostname -I|xargs -n1
