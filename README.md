@@ -81,10 +81,10 @@ WantedBy=multi-user.target
 
 # Update
 ##### copy link: releaseAdGuardHome_linux_arm.tar.gz at https://github.com/AdguardTeam/AdGuardHome/releases
-##### ssh pi@[ip-adress] e.g. ssh pi@192.168.1.3
-##### cd /home/pi
-##### wget [copied link]
-##### move AdGuardHome AdGuardHome.[date]
-##### tar -xvzf AdGuardHome_linux_arm.tar.gz
-##### shutdown -r now
+##### $ ssh pi@[ip-adress] e.g. ssh pi@192.168.1.3
+##### $ cd /home/pi
+##### $ wget [copied link]
+##### $ move AdGuardHome AdGuardHome.[date]
+##### $ tar -xvzf AdGuardHome_linux_arm.tar.gz
+##### $ shutdown -r now
   
