@@ -86,5 +86,5 @@ WantedBy=multi-user.target
 ##### $ wget [copied link]
 ##### $ move AdGuardHome AdGuardHome.[date]
 ##### $ tar -xvzf AdGuardHome_linux_arm.tar.gz
-##### $ shutdown -r now
+##### $ sudo shutdown -r now
   
