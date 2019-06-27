@@ -84,7 +84,7 @@ WantedBy=multi-user.target
 ##### ssh pi@[ip-adress] e.g. ssh pi@192.168.1.3
 ##### cd /home/pi
 ##### wget [copied link]
-##### move AdGuardHome AdGuardHome.org
+##### move AdGuardHome AdGuardHome.[date]
 ##### tar -xvzf AdGuardHome_linux_arm.tar.gz
 ##### shutdown -r now
   
