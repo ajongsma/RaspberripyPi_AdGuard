@@ -11,6 +11,14 @@
 ##### $ UserID: pi
 ##### $ Password: raspberry
 
+# Fix Error - perl
+## warning: Please check that your locale settings: LANGUAGE = (unset), LC_ALL = (unset), LC_CTYPE = "UTF-8", LANG = "en_US.UTF-8"
+##### $ export LANGUAGE=en_US.UTF-8
+##### $ export LANG=en_US.UTF-8
+##### $ export LC_ALL=en_US.UTF-8
+##### $ locale-gen en_US.UTF-8
+##### $ dpkg-reconfigure locales
+
 ## sudo raspi-config
 ##### $ sudo raspi-config
 ##### > 5) Interface Options > SSH > Yes
