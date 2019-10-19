@@ -11,8 +11,8 @@
 ##### $ UserID: pi
 ##### $ Password: raspberry
 
-# Fix Error - perl
-## warning: Please check that your locale settings: LANGUAGE = (unset), LC_ALL = (unset), LC_CTYPE = "UTF-8", LANG = "en_US.UTF-8"
+## Fix Error - perl
+### warning: Please check that your locale settings: LANGUAGE = (unset), LC_ALL = (unset), LC_CTYPE = "UTF-8", LANG = "en_US.UTF-8"
 ##### $ export LANGUAGE=en_US.UTF-8
 ##### $ export LANG=en_US.UTF-8
 ##### $ export LC_ALL=en_US.UTF-8
